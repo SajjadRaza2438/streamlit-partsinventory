@@ -35,7 +35,8 @@ with col2:
 
 
 # Load data into a pandas dataframe
-df = pd.read_csv('C:\\Users\\Home PC\\OneDrive\\Desktop\\Pr_sorted_data.csv', encoding='ISO-8859-1')
+file = "C:\\Users\\Home PC\\OneDrive\\Desktop\\Pr_sorted_data.csv', encoding='ISO-8859-1"
+df = pd.read_csv('Pr_sorted_data.csv')
 
 # Create a dropdown to select the inventory part
 inventory_parts = df['Inventory Part'].unique()
