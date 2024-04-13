@@ -16,7 +16,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 # Load the logo image
-logo_path = "C:\\Users\\Home PC\\OneDrive\\Desktop\\Master - Rental Logo Vector.jpg"
+logo_path = "Master - Rental Logo Vector.jpg"
 logo = Image.open(logo_path)
 
 # Resize the logo
